@@ -1,0 +1,261 @@
+2025-12-23 12:26:39 Thanox-Core: AndroidPatchSources, add: Xposed
+2025-12-23 12:26:39 Thanox-Core: BootStrap main: Xposed
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.start.blocker
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.privacy.data.cheat
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.plugin.support
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.privacy.field.imei
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.dialog.wakelock.remover
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.ext.n.up
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.dialog.force.cancelable
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.privacy.field.meid
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.privacy.ops.reminder
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.prevent.update
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.app.trampoline
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.iz
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.prevent.uninstall
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.privacy.task.blur
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.recent.force.exclude
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.push.delegate
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.ext.app.smart.freeze
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.prevent.clear.data
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.resident
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.profile
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.profile.accessibility
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.app.smart_standby
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.recent.task.removal
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.recent.force.include
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.privacy.ops
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.app.smart_service_stopper
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.background.task.clean
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.privacy.applock
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.component.manager
+2025-12-23 12:26:39 Thanox-Core: registerFeature: thanox.feature.ext.n.recorder
+2025-12-23 12:26:39 Thanox-Core: Bring up with thanos: kwyopc.kouubfr.fo9@68acfa8, sdk: 36, app: prc-8.7
+2025-12-23 12:26:39 Thanox-Core: systemServerLoaded: android - Entry hash 139446977
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.pm.ProtectedPackagesRegistry@913e54
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.pm.SetApplicationEnabledSettingRegistry@7cd51fd
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.pm.SetComponentEnabledSettingRegistry@8152ef2
+2025-12-23 12:26:39 Thanox-Core: hookPackageManagerServiceCompSetting...
+2025-12-23 12:26:39 Thanox-Core: hookPackageManagerServiceCompSetting, class to hook: class com.android.server.pm.PackageManagerService$IPackageManagerImpl
+2025-12-23 12:26:39 Thanox-Core: hookPackageManagerServiceCompSetting OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@67ee943]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.pm.PackageManagerServiceRegistry@bedebc0
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.pm.PackageInstallerRegistry@369c3b5
+2025-12-23 12:26:39 Thanox-Core: hookInstallPackageHelper OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@4bfe631]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.power.PowerManagerServiceRegistry@8be2116
+2025-12-23 12:26:39 Thanox-Core: PowerManagerServiceRegistry hookGetWakeLockSummaryFlags, unhooks []
+2025-12-23 12:26:39 Thanox-Core: PowerManagerServiceRegistry hookNotifyWakeLockAcquired, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@40cfa97]
+2025-12-23 12:26:39 Thanox-Core: PowerManagerServiceRegistry notifyWakeLockReleasedLocked, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@5aae484]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.workaround.ActiveServicesRegistry@d7bb46d
+2025-12-23 12:26:39 Thanox-Core: ActiveServices- method: public final int com.android.server.am.ActiveServices.bindServiceLocked(android.app.IApplicationThread,android.os.IBinder,android.content.Intent,java.lang.String,android.app.IServiceConnection,long,java.lang.String,boolean,int,java.lang.String,com.android.server.am.ApplicationThreadDeferred,java.lang.String,int)
+2025-12-23 12:26:39 Thanox-Core: ActiveServices- bindServiceFallbackUserIdIndex: 12
+2025-12-23 12:26:39 Thanox-Core: bindServiceLocked, unhooks JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@7f338a2
+2025-12-23 12:26:39 Thanox-Core: ActiveServices- method: public final android.content.ComponentName com.android.server.am.ActiveServices.startServiceLocked(android.app.IApplicationThread,android.content.Intent,java.lang.String,int,int,boolean,java.lang.String,java.lang.String,int,android.app.BackgroundStartPrivileges,boolean,int,java.lang.String,java.lang.String)
+2025-12-23 12:26:39 Thanox-Core: hookStartService, unhooks JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@d1ca933
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.workaround.ActiveServicesBindingFixRegistry@133c4f0
+2025-12-23 12:26:39 Thanox-Core: bindServiceLocked, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@aac2a69]
+2025-12-23 12:26:39 Thanox-Core: hookStartService, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@6703cee]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.AppWidgetRegistry@e6ea58f
+2025-12-23 12:26:39 Thanox-Core: hookStartListening, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@728401c]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.privacy.SecureSettingsRegistry@1540425
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.privacy.PMSGetPackageInfoRegistry@3a739fa
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.privacy.AdjustWindowBrightnessRegistry@9e5bda1
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.privacy.TelephonyManagerRegistry@21efbc6
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.privacy.SettingsEditRegistry@90bb787
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.privacy.PMSGetInstalledPackagesRegistry@55276b4
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.IntentFirewallRegistry@45bbd9e
+2025-12-23 12:26:39 Thanox-Core: IntentFirewallRegistry. hookIntentFireWall...
+2025-12-23 12:26:39 Thanox-Core: IntentFirewallRegistry. ifwClass: class com.android.server.firewall.IntentFirewall
+2025-12-23 12:26:39 Thanox-Core: IntentFirewallRegistry. Fail hookCheckBroadcastAOSP, will try another solution...
+java.lang.NoSuchMethodError: com.android.server.firewall.IntentFirewall#checkBroadcast(android.content.Intent,int,int,java.lang.String,int)#exact
+	at util.XposedHelpers.findMethodExact(Unknown Source:79)
+	at github.tornaco.android.thanos.services.xposed.hooks.IntentFirewallRegistry.hookCheckBroadcastAOSP(Unknown Source:12)
+	at github.tornaco.android.thanos.services.xposed.hooks.IntentFirewallRegistry.hookIntentFireWall(Unknown Source:26)
+	at github.tornaco.android.thanos.services.xposed.hooks.IntentFirewallRegistry.onSystemServerLoaded(Unknown Source:12)
+	at github.tornaco.android.thanos.services.xposed.XposedHookEntry.systemServerLoaded(Unknown Source:94)
+	at github.tornaco.android.thanos.services.xposed.LSPosedHookEntry.onSystemServerLoaded(Unknown Source:30)
+	at l1.d(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:19)
+	at n1.a(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:39)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.lsposed.lspd.impl.LSPosedBridge$NativeHooker.callback(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:120)
+	at LSPHooker_.startBootstrapServices(Unknown Source:11)
+	at com.android.server.SystemServer.main(Unknown Source:585)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(Unknown Source:9)
+	at com.android.internal.os.ZygoteInit.main(Unknown Source:259)
+
+2025-12-23 12:26:39 Thanox-Core: IntentFirewallRegistry. Fail hookCheckBroadcastFlyme
+java.lang.NoSuchMethodError: com.android.server.firewall.IntentFirewall#checkBroadcast(android.content.Intent,java.lang.String,int,int,java.lang.String,java.lang.String,int)#exact
+	at util.XposedHelpers.findMethodExact(Unknown Source:79)
+	at github.tornaco.android.thanos.services.xposed.hooks.IntentFirewallRegistry.hookCheckBroadcastFlyme(Unknown Source:18)
+	at github.tornaco.android.thanos.services.xposed.hooks.IntentFirewallRegistry.hookIntentFireWall(Unknown Source:42)
+	at github.tornaco.android.thanos.services.xposed.hooks.IntentFirewallRegistry.onSystemServerLoaded(Unknown Source:12)
+	at github.tornaco.android.thanos.services.xposed.XposedHookEntry.systemServerLoaded(Unknown Source:94)
+	at github.tornaco.android.thanos.services.xposed.LSPosedHookEntry.onSystemServerLoaded(Unknown Source:30)
+	at l1.d(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:19)
+	at n1.a(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:39)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.lsposed.lspd.impl.LSPosedBridge$NativeHooker.callback(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:120)
+	at LSPHooker_.startBootstrapServices(Unknown Source:11)
+	at com.android.server.SystemServer.main(Unknown Source:585)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(Unknown Source:9)
+	at com.android.internal.os.ZygoteInit.main(Unknown Source:259)
+
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.input.InputManagerServiceRegistry@1474095
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.input.PWMInterceptKeyRegistry@f39359b
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.input.InputManagerInjectInputRegistry@ea85111
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.notification.NMSRegistry@a83e276
+2025-12-23 12:26:39 Thanox-Core: NMSRegistry hookNMSStart, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@66b9077]
+2025-12-23 12:26:39 Thanox-Core: NMSRegistry hookNMSEnqueue, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@42fed4d, JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@4daf4e4]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.notification.ToastRegistry@943b002
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.notification.NotificationUsageStatsRegistry@4febd13
+2025-12-23 12:26:39 Thanox-Core: NotificationUsageStatsRegistry hookRegisterPostedByApp, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@dc47b50]
+2025-12-23 12:26:39 Thanox-Core: NotificationUsageStatsRegistry hookRegisterUpdatedByApp, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@a1b1149]
+2025-12-23 12:26:39 Thanox-Core: NotificationUsageStatsRegistry hookRegisterDismissedByUser, unhooks []
+2025-12-23 12:26:39 Thanox-Core: NotificationUsageStatsRegistry hookRegisterRemovedByApp, unhooks []
+2025-12-23 12:26:39 Thanox-Core: NotificationUsageStatsRegistry hookRegisterClickedByUser, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@440ca4e]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.ClipboardServiceRegistry@38e176f
+2025-12-23 12:26:39 Thanox-Core: hookGetPrimaryClip, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@d7dfc7c]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.activity.ActivityStartInterceptorRegistry33@57a7905
+2025-12-23 12:26:39 Thanox-Core: ActivityStartInterceptorRegistry hookActivityStartInterceptor OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@4e33d5a]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.activity.ActivityRecordHookStub@f0ebb8b
+2025-12-23 12:26:39 Thanox-Core: ActivityRecordHook.hook
+2025-12-23 12:26:39 Thanox-Core: beforeMethod, unhooks: [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@eec6468] for method: class com.android.server.wm.ActivityRecord#setState
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.activity.BatteryStatsHookStub@1aea081
+2025-12-23 12:26:39 Thanox-Core: beforeMethod, unhooks: [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@107d526] for method: class com.android.server.am.BatteryStatsService#noteProcessFinish
+2025-12-23 12:26:39 Thanox-Core: beforeMethod, unhooks: [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@4ab8567] for method: class com.android.server.am.BatteryStatsService#noteProcessStart
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.activity.SupervisorCheckStartAnyActivityRegistry@4575f14
+2025-12-23 12:26:39 Thanox-Core: SupervisorCheckStartAnyActivityRegistry hookCheckStartAnyActivityPermission...
+2025-12-23 12:26:39 Thanox-Core: SupervisorCheckStartAnyActivityRegistry hookCheckStartAnyActivityPermission OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@5a3c3bd]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.wm.WMSRegistry@d8c1db2
+2025-12-23 12:26:39 Thanox-Core: WMSRegistry hookSystemReady, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@f611103]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.UsageStatsServiceRegistry@ad55880
+2025-12-23 12:26:39 Thanox-Core: hookReportEvent...
+2025-12-23 12:26:39 Thanox-Core: hookReportEvent OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@cddeb9]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.AMSBasicRegistry@d9a62fe
+2025-12-23 12:26:39 Thanox-Core: hookAMSStart, unhooks []
+2025-12-23 12:26:39 Thanox-Core: hookAMSLifecycleStart, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@359ba5f]
+2025-12-23 12:26:39 Thanox-Core: hookAMSSystemReady, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@8777cac] HASH: 228221694
+2025-12-23 12:26:39 Thanox-Core: hookAMSShutdown, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@be4ad75]
+2025-12-23 12:26:39 Thanox-Core: handleApplicationCrashInner, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@ab5b10a]
+2025-12-23 12:26:39 Thanox-Core: hookBroadcastIntentWithFeature, unhooks [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@3099d7b]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.push.ActivityIntentResolverRegistry@135b798
+2025-12-23 12:26:39 Thanox-Core: hookBroadcastRecordPerformReceive...
+2025-12-23 12:26:39 Thanox-Core: hookBroadcastRecordPerformReceive OK:[]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.ServiceManagerRegistry@95fabf1
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.audio.MediaFocusRegistry@185d3d6
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.task.AMSRemoveTaskRegistry@e9ab544
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.task.CreateRecentTaskInfoRegistryS@f635762
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.task.TaskChangeNotificationControllerRegistry@62fe1b0
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.view.DialogRegistry@746e829
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.permission.ContextImplPermissionRegistry@ca387ae
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.BackNavRegistry@38bf94f
+2025-12-23 12:26:39 Thanox-Core: hookStartNav...
+2025-12-23 12:26:39 Thanox-Core: hookStartNav OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@aa968dc]
+2025-12-23 12:26:39 Thanox-Core: hookNavDone...
+2025-12-23 12:26:39 Thanox-Core: hookNavDone OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@e3cdde5]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.q.core.AMSStartProcessLockedRegistry@3d236c8
+2025-12-23 12:26:39 Thanox-Core: hookStartProcessLocked...
+2025-12-23 12:26:39 Thanox-Core: hookStartProcessLocked OK:JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@3e27361
+2025-12-23 12:26:39 Thanox-Core: hookPreStartProcess...
+2025-12-23 12:26:39 Thanox-Core: Fail hookPreStartProcess: java.lang.NoSuchMethodError: com.android.server.am.ActivityManagerService#preStartProcess(java.lang.String,android.content.Intent,int)#exact
+	at JEN.nD.l.KHjXY.PaE.VKg.XposedHelpers.lambda$findMethodExact$3(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:7)
+	at JEN.nD.l.KHjXY.PaE.VKg.XposedHelpers.e(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:1)
+	at JEN.nD.l.KHjXY.PaE.VKg.c.get(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:8)
+	at java.util.Optional.orElseThrow(Optional.java:403)
+	at JEN.nD.l.KHjXY.PaE.VKg.XposedHelpers.findMethodExact(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:5)
+	at JEN.nD.l.KHjXY.PaE.VKg.XposedHelpers.findAndHookMethod(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:3)
+	at github.tornaco.android.thanos.services.xposed.hooks.q.core.AMSStartProcessLockedRegistry.hookPreStartProcess(Unknown Source:32)
+	at github.tornaco.android.thanos.services.xposed.hooks.q.core.AMSStartProcessLockedRegistry.onSystemServerLoaded(Unknown Source:18)
+	at github.tornaco.android.thanos.services.xposed.XposedHookEntry.systemServerLoaded(Unknown Source:127)
+	at github.tornaco.android.thanos.services.xposed.LSPosedHookEntry.onSystemServerLoaded(Unknown Source:30)
+	at l1.d(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:19)
+	at n1.a(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:39)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.lsposed.lspd.impl.LSPosedBridge$NativeHooker.callback(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:120)
+	at LSPHooker_.startBootstrapServices(Unknown Source:11)
+	at com.android.server.SystemServer.main(Unknown Source:585)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(Unknown Source:9)
+	at com.android.internal.os.ZygoteInit.main(Unknown Source:259)
+
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.q.core.AMSRemoveLruProcessRegistry@1f1e49d
+2025-12-23 12:26:39 Thanox-Core: hookRemoveProcess...
+2025-12-23 12:26:39 Thanox-Core: hookRemoveProcess OK:JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@6145d12
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.q.core.AMSGetProviderImplRegistry@8f34ce3
+2025-12-23 12:26:39 Thanox-Core: hookGetContentProvider...
+2025-12-23 12:26:39 Thanox-Core: hookGetContentProvider OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@b9716e0]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.r.ActivityStartHookRegistry@98d2d99
+2025-12-23 12:26:39 Thanox-Core: hookExecuteRequest...
+2025-12-23 12:26:39 Thanox-Core: hookExecuteRequest OK:JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@257385e
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.s.pm.UTFHookStub@16b755b
+2025-12-23 12:26:39 Thanox-Core: Thanox-UTF. hook.
+2025-12-23 12:26:39 Thanox-Core: hook getUserTypes
+java.lang.IllegalArgumentException: afterMethod, unable to hook this method: class com.android.server.pm.UserTypeFactory#getUserTypes
+	at github.tornaco.android.thanos.services.xposed.HooksKt.afterMethod(Unknown Source:95)
+	at github.tornaco.android.thanos.services.xposed.hooks.s.pm.UserTypeFactoryHook.hookUserTypeFactory2(Unknown Source:32)
+	at github.tornaco.android.thanos.services.xposed.hooks.s.pm.UserTypeFactoryHook.hook(Unknown Source:11)
+	at github.tornaco.android.thanos.services.xposed.hooks.s.pm.UTFHookStub.onSystemServerLoaded(Unknown Source:14)
+	at github.tornaco.android.thanos.services.xposed.XposedHookEntry.systemServerLoaded(Unknown Source:193)
+	at github.tornaco.android.thanos.services.xposed.LSPosedHookEntry.onSystemServerLoaded(Unknown Source:30)
+	at l1.d(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:19)
+	at n1.a(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:39)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.lsposed.lspd.impl.LSPosedBridge$NativeHooker.callback(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:120)
+	at LSPHooker_.startBootstrapServices(Unknown Source:11)
+	at com.android.server.SystemServer.main(Unknown Source:585)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(Unknown Source:9)
+	at com.android.internal.os.ZygoteInit.main(Unknown Source:259)
+
+2025-12-23 12:26:39 Thanox-Core: Thanox-UTF. hook.
+2025-12-23 12:26:39 Thanox-Core: hook hookLockSettings
+util.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.locksettings.LockSettingsServiceExtImpl
+	at util.XposedHelpers.findClass(Unknown Source:12)
+	at kwyopc.kouubfr.hx8.OooO00o(Unknown Source:3)
+	at github.tornaco.android.thanos.core.os.Classes.colorosLockSettingsServiceExtImplClass(Unknown Source:6)
+	at github.tornaco.android.thanos.services.xposed.hooks.s.pm.UserTypeFactoryHook.hookLockSettings(Unknown Source:16)
+	at github.tornaco.android.thanos.services.xposed.hooks.s.pm.UserTypeFactoryHook.hook(Unknown Source:14)
+	at github.tornaco.android.thanos.services.xposed.hooks.s.pm.UTFHookStub.onSystemServerLoaded(Unknown Source:14)
+	at github.tornaco.android.thanos.services.xposed.XposedHookEntry.systemServerLoaded(Unknown Source:193)
+	at github.tornaco.android.thanos.services.xposed.LSPosedHookEntry.onSystemServerLoaded(Unknown Source:30)
+	at l1.d(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:19)
+	at n1.a(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:39)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.lsposed.lspd.impl.LSPosedBridge$NativeHooker.callback(r8-map-id-262c2e0ff89d3cc5bb25cad9c304996a61abc774558320706d02f16a4c7c9177:120)
+	at LSPHooker_.startBootstrapServices(Unknown Source:11)
+	at com.android.server.SystemServer.main(Unknown Source:585)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(Unknown Source:9)
+	at com.android.internal.os.ZygoteInit.main(Unknown Source:259)
+Caused by: java.lang.ClassNotFoundException: com.android.server.locksettings.LockSettingsServiceExtImpl
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:591)
+	at kwyopc.kouubfr.wy0.OooO0O0(Unknown Source:44)
+	at util.XposedHelpers.findClass(Unknown Source:4)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: com.android.server.locksettings.LockSettingsServiceExtImpl
+	... 20 more
+
+2025-12-23 12:26:39 Thanox-Core: afterMethod, unhooks: [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@48225a4] for method: class com.android.server.locksettings.SyntheticPasswordManager#saveState
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.s.pm.ShortcutHookStub@3ba2f0d
+2025-12-23 12:26:39 Thanox-Core: Method - getShortcuts: public final android.content.pm.ParceledListSlice com.android.server.pm.LauncherAppsService$LauncherAppsImpl.getShortcuts(java.lang.String,android.content.pm.ShortcutQueryWrapper,android.os.UserHandle)
+2025-12-23 12:26:39 Thanox-Core: afterMethod, unhook: JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@1aa2ec2 for method: public final android.content.pm.ParceledListSlice com.android.server.pm.LauncherAppsService$LauncherAppsImpl.getShortcuts(java.lang.String,android.content.pm.ShortcutQueryWrapper,android.os.UserHandle)
+2025-12-23 12:26:39 Thanox-Core: afterMethod, unhooks: [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@bc134d3] for method: class com.android.server.pm.ShortcutService$LocalService#getShortcuts
+2025-12-23 12:26:39 Thanox-Core: afterMethod, unhooks: [JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@d8df810] for method: class com.android.server.pm.LauncherAppsService$LauncherAppsImpl#startShortcut
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.s.OpsServiceRegistryS@367af09
+2025-12-23 12:26:39 Thanox-Core: hookCheckOp...
+2025-12-23 12:26:39 Thanox-Core: hookCheckOp OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@470750e]
+2025-12-23 12:26:39 Thanox-Core: hookNoteOperation...
+2025-12-23 12:26:39 Thanox-Core: hookNoteOperation OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@e604b2f]
+2025-12-23 12:26:39 Thanox-Core: hookNoteProxyOperation...
+2025-12-23 12:26:39 Thanox-Core: hookNoteProxyOperation OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@b42853c]
+2025-12-23 12:26:39 Thanox-Core: hookStartOperation...
+2025-12-23 12:26:39 Thanox-Core: hookStartOperation OK:[JEN.nD.l.KHjXY.PaE.VKg.XC_MethodHook$Unhook@85332c5]
+2025-12-23 12:26:39 Thanox-Core: Invoke handleLoadPackage: github.tornaco.android.thanos.services.xposed.hooks.s.task.RecentTaskBlurRegistryT@e42d41a
+2025-12-23 12:26:39 Thanox-Core: AppGlobals.setContext: android.app.ContextImpl@bd43e71
+2025-12-23 12:26:39 Thanox-Core: Pick dir for Root: /data/system
+2025-12-23 12:26:39 Thanox-Core: Pick dir for Root: /data/system
+2025-12-23 12:26:39 Thanox-Core: Pick dir for Root: /data/system
+2025-12-23 12:26:39 Thanox-Core: ServiceConfigs DataSystemServerDir baseServerDirMayInit, new random dir: /data/system/thanos_TANQGHHBmmaAKhhw
+2025-12-23 12:26:39 Thanox-Core: ServiceConfigs DataSystemServerDir baseServerDirMayInit, finally we will use: /data/system/thanos_TANQGHHBmmaAKhhw
